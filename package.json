@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start-prod": "NODE_ENV=production node ./src/server.js", //menetapkan environment
     "start": "nodemon ./src/server.js",
     "lint": "eslint ./src"
   },
